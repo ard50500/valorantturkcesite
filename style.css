@@ -1,0 +1,291 @@
+.navbar-brand {
+    position: relative;
+    background: url(./imgs/valorant.png);
+    width: 48px;
+    height: 32.72px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav a {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.bg-img {
+    background-image: url(./imgs/Killjoy1.png), url(./imgs/Raze.png);
+    background-repeat: no-repeat;
+    background-position: -5%, 110%;
+    background-attachment: fixed;
+}
+
+.bg-img2 {
+    background-image: url(./imgs/Loading_Screen_Ascent.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg-img3 {
+    background-image: url(./imgs/Loading_Screen_Bind.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg-img4 {
+    background-image: url(./imgs/Loading_Screen_Haven.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg-img5 {
+    background-image: url(./imgs/Loading_Icebox.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg-img6 {
+    background-image: url(./imgs/Loading_Screen_Split.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg-img7 {
+    background-image: url(./imgs/Homescreen.png);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.bg-img8 {
+    background-image: url(./imgs/gunsbackground.jpg);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img9 {
+    background-image: url(./imgs/ValorantLoadScreen.jpg);
+    height: 100%;
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.shadow-title {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    filter: invert(100%);
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #c33;
+}
+
+.card-img-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.card-img-wrap img {
+    transition: transform .25s;
+    width: 100%;
+}
+
+.card-img-wrap:hover img {
+    transform: scale(1.2);
+}
+
+.homescreencards:hover {
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+.mapcard:hover {
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+.mapbuttons {
+    width: 75px !important;
+    border-radius: 0px;
+}
+
+.mapbuttons:hover {
+    transform: scale(1.2);
+    transition-duration: .5s;
+    -webkit-transition: transform .1s ease-in-out;
+}
+
+.cardmap {
+    background-color: #180e31;
+}
+
+
+.fa-angle-right {
+    transition: all .2s ease;
+}
+
+.fa-angle-right:hover {
+    color: red;
+    transform: rotate(90deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gun-img {
+    transition: all .1s ease;
+
+}
+
+.gun-img:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+    -webkit-transition: transform .1s ease-in-out;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.text-bolded {
+    font: small-caps bold 24px/2;
+    color: white !important;
+}
+
+.borderforcontainers {
+    border: 1px dotted #cc2222;
+}
+
+
+.slide-in {
+    animation: slide-in 1s ease-out;
+    -webkit-animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+.slide-up {
+    animation: slide-up 1s ease-out;
+    -webkit-animation: slide-up 1s ease-out;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
